@@ -1,0 +1,97 @@
+Commands and Steps:
+
+https://github.com
+
+1. Create an account in github
+
+2. Create a new repository. 
+
+3. README.md md means Markdown documentation.
+
+4.Edit the readme.md and add author. Commit the changes
+
+5.Edit readme and add <br> insert new line before Author.
+
+6. GIT: Visual Studio Code / Windows (GIT Bash) / MAC (Terminal).
+
+7. Download GIT Bash: 
+
+8. Go to chrome: type GIT download
+
+9. Check main and use unix tools
+
+10. Start GIT from Desktop.
+
+11. Check the version: git --version
+
+12.Configuring the GIT
+
+13.git config --global user.name "venkatsrikanthbr"
+
+14. git config --global user.email "venkatsrikanth26@gmail.com"
+
+15. run git config --list (Optional)
+
+16. In computer, create a folder Git Demo
+
+17. Inside Git Demo, right+click Run Git bash here
+
+18. Clone the repository in Git Demo (Cloning a repository on our local machine)
+	
+        copy repository code and run git clone code in git.
+
+19. cd testdemo
+
+20. ls 
+
+21. ls -a (Hidden Files)
+
+22.  git status
+
+23. go to Git Demo folder, edit readme.md
+
+24. git status
+
+25. create a new file using touch and edit the file.
+
+26. git status
+
+27. git add filename (To add all files, git add .)
+
+28.  git commit -m "Git/GitHub Training"
+
+29. git status
+
+30. Push Command: upload local repo content to remote repo using git push origin main
+
+31.  Origin is the https: address of the repository. main is the branch name in repository
+
+32. come outof testdemo. 
+
+33. In testdemo, mkdir localrepo
+
+34. cd localrepo
+
+35. ls -a (only hidden files will be displayed)
+
+36. git init
+
+37. ls -a
+
+38. create a newfile and edit
+
+39. git status
+
+40. git add and git status
+
+41. git commit -m "message" and git status
+
+42. create a new repository in github with the same name localrepo
+
+43. git remote add origin https://github.com/venkatsrikanthbr/localrepo.git
+
+44.  git remote -v
+
+45.  git push -u origin main (-u set upstream)
+
+46. git push --force origin main
